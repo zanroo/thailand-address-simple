@@ -1,5 +1,5 @@
 import { Address, Config } from "./types";
-declare class ThailandAddressCompact {
+export default class ThailandAddressSimple {
     config: Config;
     address: Address[];
     constructor(config?: Config);
@@ -10,5 +10,4 @@ declare class ThailandAddressCompact {
     searchByProvince: (input: string) => Address[];
     searchByZipCode: (input: string) => Address[];
 }
-export default ThailandAddressCompact;
 //# sourceMappingURL=index.d.ts.map

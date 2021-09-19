@@ -109,8 +109,8 @@ function reStructure(database) {
     });
     return expanded;
 }
-var ThailandAddressCompact = /** @class */ (function () {
-    function ThailandAddressCompact(config) {
+var ThailandAddressSimple = /** @class */ (function () {
+    function ThailandAddressSimple(config) {
         var _this = this;
         this.init = function () { return __awaiter(_this, void 0, void 0, function () {
             var _a, _b;
@@ -159,8 +159,8 @@ var ThailandAddressCompact = /** @class */ (function () {
         };
         this.config = config !== null && config !== void 0 ? config : DEFAULT_CONFIG;
     }
-    return ThailandAddressCompact;
+    return ThailandAddressSimple;
 }());
 
-module.exports = ThailandAddressCompact;
+module.exports = ThailandAddressSimple;
 //# sourceMappingURL=bundle.cjs.js.map
