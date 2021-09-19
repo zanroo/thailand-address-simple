@@ -443,6 +443,7 @@ $.Thailand({
 
 ## License
 WTFPL 2.0 http://www.wtfpl.net/
+Also MIT (formally)
 
 ## Forks
 * [React](https://github.com/zapkub/react-thailand-address-typeahead)
