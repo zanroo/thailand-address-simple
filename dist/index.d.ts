@@ -1,13 +1,4 @@
-import { Address, Config } from "./types";
-export default class ThailandAddressSimple {
-    config: Config;
-    address: Address[];
-    constructor(config?: Config);
-    init: () => Promise<void>;
-    search: (input: string) => Address[];
-    searchByDistrict: (input: string) => Address[];
-    searchByAmphoe: (input: string) => Address[];
-    searchByProvince: (input: string) => Address[];
-    searchByZipCode: (input: string) => Address[];
-}
+import ThailandAddressSimple from "./core";
+export { Address, Config, Database } from "./types";
+export default ThailandAddressSimple;
 //# sourceMappingURL=index.d.ts.map
