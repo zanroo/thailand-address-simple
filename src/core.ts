@@ -1,8 +1,8 @@
 import axios from "axios";
 import { Address, Config, Database } from "./types";
-// test commit
+
 const DEFAULT_CONFIG = {
-    database: "https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/database/db.json",
+    database: "https://cdn-bkk.zanroo.com/static/webchat/th-address.json",
 };
 
 function reStructure(database: Database) {
