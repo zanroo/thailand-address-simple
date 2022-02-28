@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Address, Config, Database } from "./types";
-
+// test commit
 const DEFAULT_CONFIG = {
     database: "https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/database/db.json",
 };
