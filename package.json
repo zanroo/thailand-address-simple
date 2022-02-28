@@ -19,8 +19,7 @@
         "build:umd": "webpack"
     },
     "dependencies": {
-        "axios": "^0.21.4",
-        "fs": "^0.0.1-security"
+        "axios": "^0.21.4"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^20.0.0",
